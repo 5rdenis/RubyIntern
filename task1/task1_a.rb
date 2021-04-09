@@ -20,17 +20,19 @@ def find_two_max(array)
 end
 puts find_two_max(arr)
 
-=begin Вариант 2
+#Вариант 2
+=begin
 def find_two_max(array)
 	sorted_arr = array.sort
-	sorted_arr[-1], sorted_arr[-2]
+	return sorted_arr[-1], sorted_arr[-2]
 end
 puts find_two_max(arr)
 =end
 
-=begin Вариант 3
+#Вариант 3
+=begin
 def find_two_max(array)
-	arr.max,arr.max(2)
+	array.max(2)
 end
 puts find_two_max(arr)
 =end
